@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Staff Login - Barangay BJ1</title>
+  <!-- Font and Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+  <link rel="shortcut icon" href="/icons/favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- Login Container -->
+  <div class="login-card">
+    
+    <!-- Top colored section with logo -->
+    <div class="login-header">
+      <div class="brand-icon">
+          <img src="/icons/brgy.svg" alt="BJ1 Official Seal" style="width: 90px; margin: 20px;">
+      </div>
+      <h1 style="font-size: 24px; font-weight: bold; margin: 0;">Barangay BJ1</h1>
+      <p style="margin: 5px 0 0; opacity: 0.9; font-size: 14px;">Official Staff Access</p>
+    </div>
+    
+    <!-- Input fields and buttons -->
+    <div class="login-body">
+      <form action="index.html">
+        <div class="form-group">
+          <label for="username">Username / ID</label>
+          <input type="text" id="username" placeholder="Enter your ID" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn-login">Sign In</button>
+      </form>
+      
+      <a href="index.html" class="back-link">← Back to Public Dashboard</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
